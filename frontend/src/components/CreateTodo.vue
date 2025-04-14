@@ -5,7 +5,7 @@
       <input
         class="input-task"
         placeholder="Add a new task "
-        v-model="name"
+        v-model="ken"
         @keyup.enter="addTodo($event)"
         @keypress="typing = true"
       />
