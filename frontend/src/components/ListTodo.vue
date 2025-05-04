@@ -105,7 +105,7 @@ button {
   border: 1px solid black;
   padding: 2px;
   border-radius: 4px;
-  height: 50px;
+  height: 55px;
   width: 70px;
 }
 </style>
