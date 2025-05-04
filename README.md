@@ -56,14 +56,14 @@ the website runs on http://localhost:8080/
 
 ---
 
-## use Dockerfile to build
+#### use Dockerfile to build
 
-## Build
+##### Build
 Make sure you are under the directory ./frontend
 ```
  docker build -t your-image-name ./frontend 
 ```
-## Run
+##### Run
 ```
 docker run -p 8080:80 <your-image-name> ./frontend 
 ```
