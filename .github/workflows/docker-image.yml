@@ -26,6 +26,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./frontend
+          file: ./frontend/Dockerfile
           push: true
           tags: chenjennifer/2025cloud:v3
