@@ -34,3 +34,4 @@ Make sure you are under the directory ./frontend
 ```
 docker run -p 8080:80 <your-image-name>
 ```
+Can see issue to viwe the result
